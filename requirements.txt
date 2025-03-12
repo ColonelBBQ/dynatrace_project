@@ -1,0 +1,10 @@
+kagglehub
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+dash
+plotly
+gunicorn  # Required for web deployment
+flask  # Required for Dash to work properly
