@@ -4,8 +4,7 @@ import plotly.express as px
 import pandas as pd
 from dash.dependencies import Input, Output
 
-# Load Data (Replace this with your actual dataset loading method)
-df_dashboard = pd.read_csv("your_data.csv")
+df_dashboard = pd.read_csv("df_dashboard.csv")
 
 # Initialize Dash app
 app = dash.Dash(__name__)
